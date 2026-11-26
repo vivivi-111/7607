@@ -1,0 +1,17 @@
+{
+  "chosen_fallback": 0,
+  "fallback_policy": "drop",
+  "question_overlap": 0,
+  "rejected_fallback": 0,
+  "seed": 42,
+  "settings": {
+    "correctability": 954,
+    "robustness": 954
+  },
+  "split_unit": "question",
+  "test_question_overlap": 0,
+  "train": 1717,
+  "train_questions": 834,
+  "validation": 191,
+  "validation_questions": 89
+}

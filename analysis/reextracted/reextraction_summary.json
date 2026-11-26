@@ -1,0 +1,146 @@
+{
+  "runs": [
+    {
+      "assignment_inconsistent": 8,
+      "changed_correctness": 36,
+      "changed_extractions": 150,
+      "rows": 2915,
+      "run": "mistral-7b_M1",
+      "source": "results/mistral-7b_M1/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 16,
+      "changed_correctness": 71,
+      "changed_extractions": 158,
+      "rows": 2925,
+      "run": "mistral-7b_M2",
+      "source": "results/mistral-7b_M2/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 12,
+      "changed_correctness": 55,
+      "changed_extractions": 157,
+      "rows": 2940,
+      "run": "mistral-7b_none",
+      "source": "results/mistral-7b_none/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 99,
+      "changed_extractions": 219,
+      "rows": 2940,
+      "run": "qwen2.5-1.5b_M1",
+      "source": "results/qwen2.5-1.5b_M1/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 4,
+      "changed_correctness": 167,
+      "changed_extractions": 246,
+      "rows": 3115,
+      "run": "qwen2.5-1.5b_M2",
+      "source": "results/qwen2.5-1.5b_M2/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 4,
+      "changed_correctness": 34,
+      "changed_extractions": 68,
+      "rows": 3115,
+      "run": "qwen2.5-1.5b_baseline",
+      "source": "results/qwen2.5-1.5b_baseline/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 29,
+      "changed_extractions": 40,
+      "rows": 3240,
+      "run": "qwen2.5-14b_M1",
+      "source": "results/qwen2.5-14b_M1/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 22,
+      "changed_extractions": 27,
+      "rows": 3255,
+      "run": "qwen2.5-14b_M2",
+      "source": "results/qwen2.5-14b_M2/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 13,
+      "changed_extractions": 19,
+      "rows": 3255,
+      "run": "qwen2.5-14b_baseline",
+      "source": "results/qwen2.5-14b_baseline/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 7,
+      "changed_extractions": 17,
+      "rows": 3145,
+      "run": "qwen2.5-7b_M1",
+      "source": "results/qwen2.5-7b_M1/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 11,
+      "changed_extractions": 24,
+      "rows": 3155,
+      "run": "qwen2.5-7b_M2",
+      "source": "results/qwen2.5-7b_M2/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 9,
+      "changed_extractions": 26,
+      "rows": 3195,
+      "run": "qwen2.5-7b_M3",
+      "source": "results/qwen2.5-7b_M3/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 20,
+      "changed_extractions": 43,
+      "rows": 3175,
+      "run": "qwen2.5-7b_M4",
+      "source": "results/qwen2.5-7b_M4/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 6,
+      "changed_extractions": 20,
+      "rows": 3155,
+      "run": "qwen2.5-7b_baseline",
+      "source": "results/qwen2.5-7b_baseline/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 1,
+      "changed_extractions": 5,
+      "rows": 3240,
+      "run": "qwen3.8-27b-api_M1",
+      "source": "results/qwen3.8-27b-api_M1/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 5,
+      "changed_extractions": 14,
+      "rows": 3260,
+      "run": "qwen3.8-27b-api_M2",
+      "source": "results/qwen3.8-27b-api_M2/dialogues.jsonl"
+    },
+    {
+      "assignment_inconsistent": 0,
+      "changed_correctness": 1,
+      "changed_extractions": 10,
+      "rows": 3260,
+      "run": "qwen3.8-27b-api_baseline",
+      "source": "results/qwen3.8-27b-api_baseline/dialogues.jsonl"
+    }
+  ],
+  "totals": {
+    "assignment_inconsistent": 44,
+    "changed_correctness": 586,
+    "changed_extractions": 1243,
+    "rows": 53285
+  }
+}

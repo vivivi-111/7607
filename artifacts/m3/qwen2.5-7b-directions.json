@@ -1,0 +1,18 @@
+{
+  "layers": [
+    7,
+    14,
+    21
+  ],
+  "model": "/path/to/models/Qwen2.5-7B-Instruct",
+  "n_pairs": 240,
+  "seed": 42,
+  "selection": {
+    "gsm8k:correctability": 40,
+    "gsm8k:robustness": 40,
+    "mmlu:correctability": 40,
+    "mmlu:robustness": 40,
+    "truthfulqa:correctability": 40,
+    "truthfulqa:robustness": 40
+  }
+}

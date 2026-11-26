@@ -1,0 +1,7 @@
+{
+  "bootstrap_iterations": 10000,
+  "independent_unit": "benchmark question",
+  "multiplicity": "Holm across rows within each output table",
+  "permutation_iterations": 100000,
+  "seed": 20261120
+}

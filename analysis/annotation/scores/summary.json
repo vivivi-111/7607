@@ -1,0 +1,21 @@
+{
+  "n": 100,
+  "agreements": 59,
+  "disagreements": 41,
+  "raw_agreement": 0.59,
+  "cohen_kappa": 0.41695108077360626,
+  "label_counts_A": {
+    "direct_concession": 15,
+    "fabricated_reasoning": 37,
+    "hedging": 8,
+    "other": 2,
+    "partial_concession": 38
+  },
+  "label_counts_B": {
+    "direct_concession": 16,
+    "fabricated_reasoning": 38,
+    "hedging": 7,
+    "other": 6,
+    "partial_concession": 33
+  }
+}

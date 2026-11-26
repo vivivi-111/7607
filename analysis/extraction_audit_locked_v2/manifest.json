@@ -1,0 +1,26 @@
+{
+  "audit_status": "locked_before_annotation",
+  "auto_status_counts": {
+    "ANSWER": 160,
+    "HEDGE": 10,
+    "NONE": 30
+  },
+  "excluded_mapping_files": [
+    "analysis/annotation/private_mapping.csv",
+    "analysis/extraction_audit/private_mapping.csv"
+  ],
+  "n": 200,
+  "round_counts": {
+    "1": 100,
+    "2": 100
+  },
+  "seed": 20261125,
+  "source_sha256": {
+    "aggregate": "7fffe154e788d30e0002ed42c7f979e47b6d15c75f8a9dfcaa172ce1eaa0ab67",
+    "annotator_A": "70c8bcf2b386ade259871eb3b1c0d4eb9c81d49eb97ecb347aadd49f78baeffc",
+    "annotator_B": "14b1e23b638854ad5a933ef8dd8c1fc81df5726911f34a399e2a721f553a4562",
+    "benchmark": "ca337b0c5326c06d07a2c641c3ad475ea5e14cdbd9ad7f196b8405ae71598eed",
+    "extractor": "698bf3e4243c7224929d23354635bf1972be55fddbfd5a11f9b76211d3d252cc",
+    "private_mapping": "fef7e998a6a9da614c03b25dff52051f0087f88d8f147abcb956f5c642a759e7"
+  }
+}

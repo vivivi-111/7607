@@ -1,0 +1,10 @@
+{
+  "independent_question_split": false,
+  "overlapping_questions": 182,
+  "split_unit": "question-pushback pair",
+  "train_pairs": 2160,
+  "train_questions": 1001,
+  "validation_pairs": 240,
+  "validation_question_overlap_rate": 0.8348623853211009,
+  "validation_questions": 218
+}

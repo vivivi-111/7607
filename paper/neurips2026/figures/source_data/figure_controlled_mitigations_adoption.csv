@@ -1,0 +1,7 @@
+run,feedback_correct,feedback_adoption_rate
+M1,False,0.670771375464684
+M1,True,0.9393587360594795
+M2,False,0.23420074349442377
+M2,True,0.8224907063197027
+baseline,False,0.7365241635687733
+baseline,True,0.9516728624535316

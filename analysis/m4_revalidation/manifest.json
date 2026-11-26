@@ -1,0 +1,19 @@
+{
+  "capability_runs": [
+    "seed42",
+    "seed43",
+    "seed44"
+  ],
+  "factorial_runs": [
+    "seed42",
+    "seed43",
+    "seed44"
+  ],
+  "general_capability_check": "paired accuracy on 500 MMLU and 500 GSM8K questions held out from preference construction and the main benchmark",
+  "runs": [
+    "seed42",
+    "seed43",
+    "seed44"
+  ],
+  "seed_uncertainty": "mean, sample SD, and range across three runs"
+}

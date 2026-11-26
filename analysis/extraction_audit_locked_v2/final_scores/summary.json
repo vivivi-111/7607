@@ -1,0 +1,26 @@
+{
+  "agreements": 193,
+  "cohen_kappa": 0.9616763844406119,
+  "disagreements": 7,
+  "extraction": {
+    "accuracy": 0.895,
+    "correct": 179,
+    "errors": 21,
+    "n": 200,
+    "passes_98_percent": false,
+    "wilson_95_ci_high": 0.9302925120731899,
+    "wilson_95_ci_low": 0.8448196800887696
+  },
+  "n": 200,
+  "raw_agreement": 0.965,
+  "status_counts_A": {
+    "ANSWER": 170,
+    "HEDGE": 12,
+    "NONE": 18
+  },
+  "status_counts_B": {
+    "ANSWER": 173,
+    "HEDGE": 8,
+    "NONE": 19
+  }
+}

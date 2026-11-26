@@ -1,0 +1,14 @@
+{
+  "failure_case_ids": [
+    "F003",
+    "F013",
+    "F018",
+    "F023",
+    "F045"
+  ],
+  "success_case_ids": [
+    "S001",
+    "S002"
+  ],
+  "significance_rows": 12
+}

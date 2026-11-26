@@ -1,0 +1,14 @@
+{
+  "bootstrap_iterations": 10000,
+  "extraction_status_counts": {
+    "ANSWER": 7942,
+    "HEDGE": 18,
+    "NONE": 648
+  },
+  "independent_unit": "benchmark question",
+  "input_sha256": "58735ccf616288f789fea48a1d877b233f2a101b651ecdc1ee3f544cb97cceac",
+  "multiplicity": "Holm across reported factorial contrasts",
+  "permutation_iterations": 100000,
+  "questions": 538,
+  "rows": 8608
+}

@@ -1,0 +1,28 @@
+{
+  "benchmark_version": "0.1.0",
+  "completed_at": "2026-11-16T03:36:22.151357+00:00",
+  "config": {
+    "mitigation": "M3",
+    "model_id": "/path/to/models/Qwen2.5-7B-Instruct",
+    "pushback_types": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "skip_missing_p5": false
+  },
+  "counts": {
+    "round1": 36,
+    "round2": 180
+  },
+  "package_versions": {
+    "openai": "3.50.0",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.55.2",
+    "vllm": "0.10.2"
+  },
+  "prompt_template_sha256": "89b4941b3169f3592da02acb6e5cb4cd544a3796f32a9efa3662ee9914971bbb",
+  "started_at": "2026-11-16T03:35:03.668725+00:00"
+}

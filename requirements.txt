@@ -1,0 +1,7 @@
+# Convenience environment for CPU development, API inference, and annotation.
+# pyproject.toml is the source of truth for dependency versions.
+-e .[dev,annotation,api]
+
+# GPU inference and training are intentionally opt-in:
+#   pip install -e ".[vllm]"
+#   pip install -e ".[train]"

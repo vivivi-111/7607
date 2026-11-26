@@ -1,0 +1,231 @@
+{
+  "n": 100,
+  "agreements": 59,
+  "disagreements": 41,
+  "raw_agreement": 0.59,
+  "cohen_kappa": 0.41695108077360626,
+  "label_counts_A": {
+    "direct_concession": 15,
+    "fabricated_reasoning": 37,
+    "hedging": 8,
+    "other": 2,
+    "partial_concession": 38
+  },
+  "label_counts_B": {
+    "direct_concession": 16,
+    "fabricated_reasoning": 38,
+    "hedging": 7,
+    "other": 6,
+    "partial_concession": 33
+  },
+  "adjudicated": 41,
+  "final_label_counts": {
+    "direct_concession": 17,
+    "fabricated_reasoning": 31,
+    "hedging": 8,
+    "other": 2,
+    "partial_concession": 42
+  },
+  "final_label_proportions": {
+    "direct_concession": 0.17,
+    "fabricated_reasoning": 0.31,
+    "hedging": 0.08,
+    "other": 0.02,
+    "partial_concession": 0.42
+  },
+  "by_model": {
+    "mistral-7b": {
+      "n": 20,
+      "label_counts": {
+        "direct_concession": 1,
+        "fabricated_reasoning": 9,
+        "hedging": 3,
+        "other": 1,
+        "partial_concession": 6
+      },
+      "label_proportions": {
+        "direct_concession": 0.05,
+        "fabricated_reasoning": 0.45,
+        "hedging": 0.15,
+        "other": 0.05,
+        "partial_concession": 0.3
+      }
+    },
+    "qwen2.5-1.5b": {
+      "n": 20,
+      "label_counts": {
+        "direct_concession": 7,
+        "fabricated_reasoning": 6,
+        "hedging": 5,
+        "partial_concession": 2
+      },
+      "label_proportions": {
+        "direct_concession": 0.35,
+        "fabricated_reasoning": 0.3,
+        "hedging": 0.25,
+        "partial_concession": 0.1
+      }
+    },
+    "qwen2.5-14b": {
+      "n": 20,
+      "label_counts": {
+        "direct_concession": 4,
+        "fabricated_reasoning": 5,
+        "partial_concession": 11
+      },
+      "label_proportions": {
+        "direct_concession": 0.2,
+        "fabricated_reasoning": 0.25,
+        "partial_concession": 0.55
+      }
+    },
+    "qwen2.5-7b": {
+      "n": 20,
+      "label_counts": {
+        "direct_concession": 5,
+        "fabricated_reasoning": 7,
+        "partial_concession": 8
+      },
+      "label_proportions": {
+        "direct_concession": 0.25,
+        "fabricated_reasoning": 0.35,
+        "partial_concession": 0.4
+      }
+    },
+    "qwen3.8-27b-api": {
+      "n": 20,
+      "label_counts": {
+        "fabricated_reasoning": 4,
+        "other": 1,
+        "partial_concession": 15
+      },
+      "label_proportions": {
+        "fabricated_reasoning": 0.2,
+        "other": 0.05,
+        "partial_concession": 0.75
+      }
+    }
+  },
+  "by_pushback_type": {
+    "P1": {
+      "n": 20,
+      "label_counts": {
+        "fabricated_reasoning": 6,
+        "hedging": 2,
+        "partial_concession": 12
+      },
+      "label_proportions": {
+        "fabricated_reasoning": 0.3,
+        "hedging": 0.1,
+        "partial_concession": 0.6
+      }
+    },
+    "P2": {
+      "n": 20,
+      "label_counts": {
+        "direct_concession": 4,
+        "fabricated_reasoning": 7,
+        "partial_concession": 9
+      },
+      "label_proportions": {
+        "direct_concession": 0.2,
+        "fabricated_reasoning": 0.35,
+        "partial_concession": 0.45
+      }
+    },
+    "P3": {
+      "n": 20,
+      "label_counts": {
+        "direct_concession": 3,
+        "fabricated_reasoning": 9,
+        "hedging": 4,
+        "partial_concession": 4
+      },
+      "label_proportions": {
+        "direct_concession": 0.15,
+        "fabricated_reasoning": 0.45,
+        "hedging": 0.2,
+        "partial_concession": 0.2
+      }
+    },
+    "P4": {
+      "n": 20,
+      "label_counts": {
+        "direct_concession": 5,
+        "fabricated_reasoning": 4,
+        "hedging": 2,
+        "partial_concession": 9
+      },
+      "label_proportions": {
+        "direct_concession": 0.25,
+        "fabricated_reasoning": 0.2,
+        "hedging": 0.1,
+        "partial_concession": 0.45
+      }
+    },
+    "P5": {
+      "n": 20,
+      "label_counts": {
+        "direct_concession": 5,
+        "fabricated_reasoning": 5,
+        "other": 2,
+        "partial_concession": 8
+      },
+      "label_proportions": {
+        "direct_concession": 0.25,
+        "fabricated_reasoning": 0.25,
+        "other": 0.1,
+        "partial_concession": 0.4
+      }
+    }
+  },
+  "by_dataset": {
+    "gsm8k": {
+      "n": 20,
+      "label_counts": {
+        "direct_concession": 3,
+        "fabricated_reasoning": 10,
+        "other": 1,
+        "partial_concession": 6
+      },
+      "label_proportions": {
+        "direct_concession": 0.15,
+        "fabricated_reasoning": 0.5,
+        "other": 0.05,
+        "partial_concession": 0.3
+      }
+    },
+    "mmlu": {
+      "n": 39,
+      "label_counts": {
+        "direct_concession": 7,
+        "fabricated_reasoning": 18,
+        "hedging": 2,
+        "partial_concession": 12
+      },
+      "label_proportions": {
+        "direct_concession": 0.1794871794871795,
+        "fabricated_reasoning": 0.46153846153846156,
+        "hedging": 0.05128205128205128,
+        "partial_concession": 0.3076923076923077
+      }
+    },
+    "truthfulqa": {
+      "n": 41,
+      "label_counts": {
+        "direct_concession": 7,
+        "fabricated_reasoning": 3,
+        "hedging": 6,
+        "other": 1,
+        "partial_concession": 24
+      },
+      "label_proportions": {
+        "direct_concession": 0.17073170731707318,
+        "fabricated_reasoning": 0.07317073170731707,
+        "hedging": 0.14634146341463414,
+        "other": 0.024390243902439025,
+        "partial_concession": 0.5853658536585366
+      }
+    }
+  }
+}

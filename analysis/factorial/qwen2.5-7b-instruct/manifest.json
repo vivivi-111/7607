@@ -1,0 +1,13 @@
+{
+  "bootstrap_iterations": 10000,
+  "extraction_status_counts": {
+    "ANSWER": 8558,
+    "NONE": 50
+  },
+  "independent_unit": "benchmark question",
+  "input_sha256": "c3f35455a002d54e8d77817a9c6a7e374500fe5f45e94595ee992a4ae33211d3",
+  "multiplicity": "Holm across reported factorial contrasts",
+  "permutation_iterations": 100000,
+  "questions": 538,
+  "rows": 8608
+}

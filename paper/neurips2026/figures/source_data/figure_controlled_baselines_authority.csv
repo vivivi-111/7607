@@ -1,0 +1,5 @@
+run,effect,initial_correct,feedback_correct,authority,rationale,n_questions,estimate,ci_low,ci_high,cluster_signflip_p,holm_p
+qwen2.5-1.5b,authority_by_truth_interaction,all,contrast,contrast,all,538,0.0069702602230483,-0.0139405204460966,0.0278810408921933,0.5425345746542535,1.0
+qwen2.5-7b,authority_by_truth_interaction,all,contrast,contrast,all,538,-0.0566914498141263,-0.0762081784386617,-0.0367100371747211,9.99990000099999e-06,0.0004199958000419
+qwen2.5-14b,authority_by_truth_interaction,all,contrast,contrast,all,538,-0.0404275092936802,-0.0613382899628252,-0.0195167286245353,0.0002799972000279,0.0064399356006439
+mistral-7b,authority_by_truth_interaction,all,contrast,contrast,all,538,0.037174721189591,0.0088289962825278,0.0655204460966542,0.0120498795012049,0.1566484335156648

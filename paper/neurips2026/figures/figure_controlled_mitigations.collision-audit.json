@@ -1,0 +1,48 @@
+{
+  "pdf": "paper/neurips2026/figures/figure_controlled_mitigations.pdf",
+  "auditable": true,
+  "verdict": "REVIEW REQUIRED",
+  "page_count": 1,
+  "visible_text_box_count": 34,
+  "text_trace_count": 34,
+  "stroke_path_count": 61,
+  "filled_region_count": 50,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 1,
+    "contained_fill_overlays": 5,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "Incorrect",
+      "text_bbox": [
+        136.2978515625,
+        107.55897521972656,
+        167.33848571777344,
+        114.55897521972656
+      ],
+      "other_text": null,
+      "other_bbox": [
+        38.905513763427734,
+        21.089767456054688,
+        162.78173828125,
+        137.08346557617188
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        1000
+      ]
+    }
+  ]
+}
