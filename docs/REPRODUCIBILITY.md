@@ -147,33 +147,18 @@ Because the packet uses quotas on extractor-predicted status and samples the
 observational/mitigation response pool, this is a diagnostic audit value rather
 than a population-weighted accuracy or a direct audit of factorial outputs.
 
-## 7. Figures and manuscript
+## 7. Manuscript
 
-Regenerate the controlled figures:
-
-```bash
-python paper/neurips2026/figures/build_controlled_figures.py
-python paper/neurips2026/figures/build_m4_revalidation_figure.py
-```
-
-The optional panel-alignment audit is enabled when
-`NATURE_FIGURE_SCRIPTS=/path/to/nature-figure/scripts` points to a directory
-containing `audit_panel_alignment.py`. Figure generation otherwise proceeds
-without that auxiliary audit.
-
-Compile the manuscript with a NeurIPS-compatible LaTeX installation:
-
-```bash
-cd paper/neurips2026
-tectonic -X compile main.tex
-```
+The LaTeX source, style file, and publication figures are maintained outside
+this code repository. Analysis outputs used by the manuscript remain under
+`analysis/`.
 
 ## 8. Reproducibility levels
 
 - **Runs from scratch:** requires source datasets, model weights, GPU resources,
   and the P5 cache.
 - **Re-analysis:** uses released aggregate CSV files and analysis scripts.
-- **Manuscript/figure rebuild:** uses released source data, figures, and LaTeX.
+- **Manuscript rebuild:** requires the separately stored LaTeX source and figures.
 - **Exact raw-output replay:** not provided in the GitHub package because raw
   generations and model artifacts are large and may carry provider-specific
   restrictions.

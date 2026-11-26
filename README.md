@@ -88,14 +88,12 @@ PYTHONPATH=src:. pytest -q
 - `src/sycophancy/`: benchmark preparation, model backends, extraction, metrics
 - `scripts/`: experiment, mitigation, training, and presentation entry points
 - `analysis/`: statistical analyses and frozen aggregate outputs
-- `paper/neurips2026/`: manuscript source and reproducible figure scripts
 - `prompts/`: pushback templates
 - `tests/`: unit tests
 - `docs/`: reproducibility and annotation documentation
 
-The final manuscript, slides, speaker script, and QA records are distributed
-as a separate release bundle rather than duplicated in the GitHub code
-snapshot.
+The manuscript source, compiled paper, slides, and speaker script are kept
+outside this repository.
 
 Raw generations, model weights, local caches, and API credentials are excluded
 from version control. Aggregate analysis tables and figure source data are
